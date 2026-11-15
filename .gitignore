@@ -3,3 +3,23 @@ out/
 .venv/
 __pycache__/
 *.pyc
+
+# Local datasets and generated knowledge graphs (keep integrations/config tracked).
+/data/
+/DATASET/
+/graphify-out/
+/tmp/
+/temp/
+/.tmp/
+*.bak
+.ipynb_checkpoints/
+
+# Recordings must not be added accidentally. Existing official sample fixtures
+# remain tracked; ignore rules do not remove files already in Git.
+*.bdf
+*.edf
+*.xdf
+*.fif
+*.mp4
+*.avi
+*.mov
